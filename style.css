@@ -1,0 +1,73 @@
+body {
+    background-color: #e95d48; /* Light gray background */
+    font-family: Arial, sans-serif; /* Sets the font for the body */
+}
+h1 {
+    color: blue; /* Sets the color of the heading */
+    text-align: left; /* Centers the heading */
+    font-size: 50px; /* Sets the font size */
+    font-weight: bold; /* Makes the text bold */
+    margin-top: 20px; /* Adds space above the heading */
+    margin-left: 50px;
+}
+
+.Logo {
+    color: blue;
+    font-size: 40px; /* Sets the font size */
+    padding: 10px; /* Adds padding around the text */
+    transition: 0.3s;
+    text-align: left; /* Centers the text */
+    margin-left: 0px;
+}
+.Logo:hover {
+    color: rgb(0, 132, 255);
+    text-align: left; /* Centers the text */
+    transition: 0.3s;
+}
+
+.Orange {
+    color: orange;
+    text-align: center; /* Centers the text */
+    font-size: 20px; /* Sets the font size */
+    font-weight: bold; /* Makes the text bold */
+}
+
+p {
+    text-align: center;
+}
+a {
+    color: blue; /* Default color for all links */
+    text-decoration: none; /* Removes underline */
+    transition: 0.3s;
+}
+
+a:visited {
+    color: blue; /* Ensures visited links stay the same color */
+}
+a:hover {
+    color: rgb(0, 247, 255); /* Changes color on hover */
+    transition: 0.3s;
+}
+li {
+    color: blue; /* Default color for all links */
+    text-decoration: none; /* Removes underline */
+    transition: 0.3s;
+}
+li:hover {
+    color: rgb(0, 247, 255); /* Changes color on hover */
+    transition: 0.3s;
+}
+.Platform {
+    color: blue;
+    font-size: 50px; /* Sets the font size */
+    padding: 10px; /* Adds padding around the text */
+    transition: 0.3s;
+    text-align: center; /* Centers the text */
+}
+.Platform:hover {
+    color: blue;
+    font-size: 55px; /* Sets the font size */
+    padding: 10px; /* Adds padding around the text */
+    transition: 0.3s;
+    text-align: center; /* Centers the text */
+}
